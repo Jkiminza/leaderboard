@@ -204,3 +204,4 @@ Circuit keys are committed in `contract/managed/` so no Compact compiler is need
 Apache-2.0
 
 Built on the [Midnight Network](https://midnight.network).
+// Add comment 1
