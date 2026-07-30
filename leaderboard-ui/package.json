@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "mkdir -p ./public/keys ./public/zkir && cp -r ../contract/managed/leaderboard/keys/* ./public/keys/ && cp -r ../contract/managed/leaderboard/zkir/* ./public/zkir/ && vite",
-    "build": "tsc && vite build --mode preprod && cp -r ../contract/managed/leaderboard/keys ./dist/keys && cp -r ../contract/managed/leaderboard/zkir ./dist/zkir",
+    "build": "tsc && vite build --mode preview && cp -r ../contract/managed/leaderboard/keys ./dist/keys && cp -r ../contract/managed/leaderboard/zkir ./dist/zkir",
     "preview": "vite preview"
   },
   "dependencies": {
